@@ -1,24 +1,8 @@
-# test-1-1-1
+npm install 安装
 
-## Project setup
-```
-npm install
-```
+npm run serve 运行项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+npm run build 打包
 
-### Compiles and minifies for production
-```
-npm run build
-```
+npm run lint 修复文件
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,24 +1,24 @@
 {
-  "name": "xiaomivue",
-  "version": "0.1.0",
+  "name": "xiaomivue", //项目名称
+  "version": "0.1.0",  //版本
   "private": true,
-  "scripts": {
+  "scripts": {         //运行脚本， 运行npm run serve， 实际是运行vue-cli-service serve
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+  "dependencies": {        //项目依赖
+    "core-js": "^3.6.4",   //运行依赖
+    "vue": "^2.6.11"       //运行依赖
   },
-  "devDependencies": {
+  "devDependencies": {     //开发依赖
     "@vue/cli-plugin-babel": "~4.3.0", //插件，es6转es5的
     "@vue/cli-plugin-eslint": "~4.3.0", //插件，语法检查的
-    "@vue/cli-service": "~4.3.0", //插件
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "@vue/cli-service": "~4.3.0",      //插件
+    "babel-eslint": "^10.1.0",    	   //开发依赖
+    "eslint": "^6.7.2",           	   //开发依赖
+    "eslint-plugin-vue": "^6.2.2",  	//开发依赖
+    "vue-template-compiler": "^2.6.11" //开发依赖
   },
   "eslintConfig": {
     "root": true,
@@ -34,7 +34,7 @@
     },
     "rules": {}
   },
-  "browserslist": [
+  "browserslist": [   //浏览器兼容
     "> 1%",
     "last 2 versions",
     "not dead"
